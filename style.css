@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    height: 50px;
+    background-color: black;
+}
+
+body {
+    background-image: url("https://user-images.githubusercontent.com/30896388/168069577-2f570d08-61d3-49d8-b7dd-c4b9192aaf68.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    color: white;
+}
+
+li {
+    padding: 14px 16px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+p {
+    width: 400px;
+}
+
+#main {
+    padding-top: 200px;
+    padding-left: 10px;
+    
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* media queries */
+
+@media screen and (max-width : 768px) {
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    h1 {
+        font-size: 35px;
+    }
+}
+
+
+@media screen and (max-width : 480px) {
+    .header {
+        background-color: yellow;
+    }
+    
+    ul {
+        color: black;
+    }
+}
+
+/* end */
